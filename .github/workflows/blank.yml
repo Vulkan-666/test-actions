@@ -28,4 +28,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
       - name: Test with pytest
-        run: pytest .github/workflows/scripts/test.py
+        run: pytest -s .github/workflows/scripts/test.py
